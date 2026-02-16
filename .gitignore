@@ -1,0 +1,38 @@
+# Eclipse
+bin/
+*.launch
+.settings/
+.metadata/
+.classpath
+.project
+
+# IntelliJ IDEA
+out/
+.idea/
+*.ipr
+*.iws
+*.iml
+
+# Gradle
+build/
+.gradle/
+
+# Minecraft Forge
+run/
+logs/
+crash-reports/
+forge*changelog.txt
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Mod specific
+*~
+*.bak
+*.log
+*.tmp
+
+# Other
+eclipse/
