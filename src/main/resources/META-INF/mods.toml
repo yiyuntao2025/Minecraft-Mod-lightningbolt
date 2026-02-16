@@ -1,0 +1,29 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="MIT"
+
+[[mods]]
+modId="thunderbolt"
+version="1.0.0"
+displayName="Thunderbolt Mod"
+logoFile="thunderbolt.png"
+credits="Created by YourName"
+authors="YourName"
+description='''
+A simple mod that allows you to summon lightning by pressing the B key!
+Press B to strike lightning at your crosshair position.
+'''
+
+[[dependencies.thunderbolt]]
+modId="forge"
+mandatory=true
+versionRange="[43,)"
+ordering="NONE"
+side="CLIENT"
+
+[[dependencies.thunderbolt]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.19.2]"
+ordering="NONE"
+side="BOTH"
